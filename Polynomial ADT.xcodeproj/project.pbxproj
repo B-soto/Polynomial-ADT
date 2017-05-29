@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3386B01D1EDAB6CE00DF94AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3386B01C1EDAB6CE00DF94AA /* main.cpp */; };
+		3386B0251EDAB70300DF94AA /* polynomial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3386B0241EDAB70300DF94AA /* polynomial.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3386B0191EDAB6CE00DF94AA /* Polynomial ADT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Polynomial ADT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3386B01C1EDAB6CE00DF94AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3386B0231EDAB6ED00DF94AA /* Polynomial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polynomial.h; sourceTree = "<group>"; };
+		3386B0241EDAB70300DF94AA /* polynomial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polynomial.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3386B01C1EDAB6CE00DF94AA /* main.cpp */,
+				3386B0231EDAB6ED00DF94AA /* Polynomial.h */,
+				3386B0241EDAB70300DF94AA /* polynomial.cpp */,
 			);
 			path = "Polynomial ADT";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3386B01D1EDAB6CE00DF94AA /* main.cpp in Sources */,
+				3386B0251EDAB70300DF94AA /* polynomial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
